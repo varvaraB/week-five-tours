@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.block {
+  display:flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  background: linear-gradient(to left, #0dec84, #07d6be);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 90px;
+  letter-spacing: 4px;
+  font-family: 'Zeyada', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.number{
+  font-size: 70px;
+  color: #01b19c;
+  padding: 20px;
+  font-family: 'Zeyada', cursive;
+}
+
+
+h4{
+  padding: 30px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btnSlide{
+  background: linear-gradient(to left, #0dec845b, #07d6be56);
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+h3{
+  font-size: 40px;
+  background: #47e7d5 ;
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.description{
+  font-size: 25px;
+  padding: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.source {
+  color: #fcc546;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  background-color: #FFD36E;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btnDelete{
+  border-style: none;
+  font-size: 25px;
+  padding: 9px;
+  font-weight: bolder;
+  color: #fcc632;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
 }
